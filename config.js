@@ -6,17 +6,17 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 global.owner = process.env.OWNER_NUMBER.split(",")
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://sam:sam@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority"
 global.port= process.env.PORT || 5000
-global.email = 'sam@secktor.live'
+global.email = 'jattwhatsappbot@gmail.com'
 global.github = 'https://github.com/vajirabot1/KING-VAJIRA-MD'
-global.location = 'Sultanpur IN'
-global.gurl = 'https://instagram.com/' // add your username
+global.location = 'Sindh Pakistan'
+global.gurl = 'https://instagram.com/' //tayyabkhalid787
 global.sudo = process.env.SUDO || '94710903687'
 global.devs = '94710903687';
-global.website = 'https://github.com/vajirabot1/KING-VAJIRA-MD' //wa.me/+91000000000000
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/09ab24679fb3a297a8905.jpg'
+global.website = 'https://github.com/
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fin.pinterest.com%2Fpin%2Fjaat--681310249855099292%2F&psig=AOvVaw0iB8hdZr7AcyXKQxvXwcXz&ust=1702707335950000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMi3qMHmkIMDFQAAAAAdAAAAABAD'
 module.exports = {
-  botname:   process.env.BOT_NAME === undefined ? 'VAJIRA 𝐁𝐨𝐭' : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'excel' : process.env.OWNER_NAME,
+  botname:   process.env.BOT_NAME === undefined ? 'Jatt Bot' : process.env.BOT_NAME,
+  ownername: process.env.OWNER_NAME === undefined ? 'Tayyab Khalid' : process.env.OWNER_NAME,
   sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
   author:  process.env.PACK_INFO.split(";")[0] === undefined ? 'vajira' : process.env.PACK_INFO.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
